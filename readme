@@ -1,0 +1,43 @@
+#InsightSynth — Multi-Agent Research Summarizer (Groq + LLaMA 3.1 + Streamlit)
+
+This project is an AI-powered research summarization assistant built with **Groq’s ultra-fast LLaMA 3.1 model** and a **clean Streamlit chat interface**.  
+It allows users to input any research topic, trend, paper, or concept and receive:
+- Clear explanations
+- Summaries
+- Insights
+- Contextual breakdowns
+
+The UI displays messages in **WhatsApp-style chat bubbles** making the interaction natural and user-friendly.
+
+---
+
+##Project Objective
+The goal of this project is to **simulate intelligent research assistance** using:
+- LLM prompting
+- Clean conversational UI
+- API-based model inference
+
+This aligns with Ready Tensor's capstone requirement:  
+**"Build an AI agent that assists with real-world informational tasks."**
+
+---
+
+##Features
+| Feature | Description |
+|--------|-------------|
+|  Ultra-fast LLaMA 3.1 | Powered by **Groq API** (extremely low latency) |
+|  WhatsApp Style Chat | Clean message bubbles for easy conversation |
+|  Persistent Chat History | UI stores interaction during session |
+|  Secure API Usage | Key stored via `.env` (not committed to GitHub) |
+
+---
+
+| Component | Technology |
+|----------|------------|
+| UI | Streamlit |
+| LLM | Groq — LLaMA 3.1 8B Instant |
+| Env Management | python-dotenv |
+| Runtime | Python 3.10+ |
+
+---
+## Project Structure
